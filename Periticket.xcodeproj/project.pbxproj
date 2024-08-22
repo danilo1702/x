@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36FA4BCD2C77B5E900EF0FF9 /* PeriticketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA4BCC2C77B5E900EF0FF9 /* PeriticketApp.swift */; };
+		36FA4BCF2C77B5E900EF0FF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA4BCE2C77B5E900EF0FF9 /* ContentView.swift */; };
+		36FA4BD12C77B5EB00EF0FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FA4BD02C77B5EB00EF0FF9 /* Assets.xcassets */; };
+		36FA4BD42C77B5EB00EF0FF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FA4BD32C77B5EB00EF0FF9 /* Preview Assets.xcassets */; };
+		36FA4BD62C77B5EB00EF0FF9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA4BD52C77B5EB00EF0FF9 /* Persistence.swift */; };
+		36FA4BD92C77B5EB00EF0FF9 /* Periticket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36FA4BD72C77B5EB00EF0FF9 /* Periticket.xcdatamodeld */; };
+		36FA4BE32C77B5EB00EF0FF9 /* PeriticketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA4BE22C77B5EB00EF0FF9 /* PeriticketTests.swift */; };
+		36FA4BED2C77B5EB00EF0FF9 /* PeriticketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA4BEC2C77B5EB00EF0FF9 /* PeriticketUITests.swift */; };
+		36FA4BEF2C77B5EB00EF0FF9 /* PeriticketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA4BEE2C77B5EB00EF0FF9 /* PeriticketUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36FA4BDF2C77B5EB00EF0FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36FA4BC12C77B5E900EF0FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FA4BC82C77B5E900EF0FF9;
+			remoteInfo = Periticket;
+		};
+		36FA4BE92C77B5EB00EF0FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36FA4BC12C77B5E900EF0FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FA4BC82C77B5E900EF0FF9;
+			remoteInfo = Periticket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36FA4BC92C77B5E900EF0FF9 /* Periticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Periticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FA4BCC2C77B5E900EF0FF9 /* PeriticketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriticketApp.swift; sourceTree = "<group>"; };
+		36FA4BCE2C77B5E900EF0FF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36FA4BD02C77B5EB00EF0FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36FA4BD32C77B5EB00EF0FF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36FA4BD52C77B5EB00EF0FF9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		36FA4BD82C77B5EB00EF0FF9 /* Periticket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Periticket.xcdatamodel; sourceTree = "<group>"; };
+		36FA4BDE2C77B5EB00EF0FF9 /* PeriticketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriticketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FA4BE22C77B5EB00EF0FF9 /* PeriticketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriticketTests.swift; sourceTree = "<group>"; };
+		36FA4BE82C77B5EB00EF0FF9 /* PeriticketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriticketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FA4BEC2C77B5EB00EF0FF9 /* PeriticketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriticketUITests.swift; sourceTree = "<group>"; };
+		36FA4BEE2C77B5EB00EF0FF9 /* PeriticketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriticketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36FA4BC62C77B5E900EF0FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FA4BDB2C77B5EB00EF0FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FA4BE52C77B5EB00EF0FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36FA4BC02C77B5E900EF0FF9 = {
+			isa = PBXGroup;
+			children = (
+				36FA4BCB2C77B5E900EF0FF9 /* Periticket */,
+				36FA4BE12C77B5EB00EF0FF9 /* PeriticketTests */,
+				36FA4BEB2C77B5EB00EF0FF9 /* PeriticketUITests */,
+				36FA4BCA2C77B5E900EF0FF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36FA4BCA2C77B5E900EF0FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36FA4BC92C77B5E900EF0FF9 /* Periticket.app */,
+				36FA4BDE2C77B5EB00EF0FF9 /* PeriticketTests.xctest */,
+				36FA4BE82C77B5EB00EF0FF9 /* PeriticketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36FA4BCB2C77B5E900EF0FF9 /* Periticket */ = {
+			isa = PBXGroup;
+			children = (
+				36FA4BCC2C77B5E900EF0FF9 /* PeriticketApp.swift */,
+				36FA4BCE2C77B5E900EF0FF9 /* ContentView.swift */,
+				36FA4BD02C77B5EB00EF0FF9 /* Assets.xcassets */,
+				36FA4BD52C77B5EB00EF0FF9 /* Persistence.swift */,
+				36FA4BD72C77B5EB00EF0FF9 /* Periticket.xcdatamodeld */,
+				36FA4BD22C77B5EB00EF0FF9 /* Preview Content */,
+			);
+			path = Periticket;
+			sourceTree = "<group>";
+		};
+		36FA4BD22C77B5EB00EF0FF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				36FA4BD32C77B5EB00EF0FF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36FA4BE12C77B5EB00EF0FF9 /* PeriticketTests */ = {
+			isa = PBXGroup;
+			children = (
+				36FA4BE22C77B5EB00EF0FF9 /* PeriticketTests.swift */,
+			);
+			path = PeriticketTests;
+			sourceTree = "<group>";
+		};
+		36FA4BEB2C77B5EB00EF0FF9 /* PeriticketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36FA4BEC2C77B5EB00EF0FF9 /* PeriticketUITests.swift */,
+				36FA4BEE2C77B5EB00EF0FF9 /* PeriticketUITestsLaunchTests.swift */,
+			);
+			path = PeriticketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36FA4BC82C77B5E900EF0FF9 /* Periticket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FA4BF22C77B5EB00EF0FF9 /* Build configuration list for PBXNativeTarget "Periticket" */;
+			buildPhases = (
+				36FA4BC52C77B5E900EF0FF9 /* Sources */,
+				36FA4BC62C77B5E900EF0FF9 /* Frameworks */,
+				36FA4BC72C77B5E900EF0FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Periticket;
+			productName = Periticket;
+			productReference = 36FA4BC92C77B5E900EF0FF9 /* Periticket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36FA4BDD2C77B5EB00EF0FF9 /* PeriticketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FA4BF52C77B5EB00EF0FF9 /* Build configuration list for PBXNativeTarget "PeriticketTests" */;
+			buildPhases = (
+				36FA4BDA2C77B5EB00EF0FF9 /* Sources */,
+				36FA4BDB2C77B5EB00EF0FF9 /* Frameworks */,
+				36FA4BDC2C77B5EB00EF0FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36FA4BE02C77B5EB00EF0FF9 /* PBXTargetDependency */,
+			);
+			name = PeriticketTests;
+			productName = PeriticketTests;
+			productReference = 36FA4BDE2C77B5EB00EF0FF9 /* PeriticketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36FA4BE72C77B5EB00EF0FF9 /* PeriticketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FA4BF82C77B5EB00EF0FF9 /* Build configuration list for PBXNativeTarget "PeriticketUITests" */;
+			buildPhases = (
+				36FA4BE42C77B5EB00EF0FF9 /* Sources */,
+				36FA4BE52C77B5EB00EF0FF9 /* Frameworks */,
+				36FA4BE62C77B5EB00EF0FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36FA4BEA2C77B5EB00EF0FF9 /* PBXTargetDependency */,
+			);
+			name = PeriticketUITests;
+			productName = PeriticketUITests;
+			productReference = 36FA4BE82C77B5EB00EF0FF9 /* PeriticketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36FA4BC12C77B5E900EF0FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					36FA4BC82C77B5E900EF0FF9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					36FA4BDD2C77B5EB00EF0FF9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 36FA4BC82C77B5E900EF0FF9;
+					};
+					36FA4BE72C77B5EB00EF0FF9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 36FA4BC82C77B5E900EF0FF9;
+					};
+				};
+			};
+			buildConfigurationList = 36FA4BC42C77B5E900EF0FF9 /* Build configuration list for PBXProject "Periticket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36FA4BC02C77B5E900EF0FF9;
+			productRefGroup = 36FA4BCA2C77B5E900EF0FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36FA4BC82C77B5E900EF0FF9 /* Periticket */,
+				36FA4BDD2C77B5EB00EF0FF9 /* PeriticketTests */,
+				36FA4BE72C77B5EB00EF0FF9 /* PeriticketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36FA4BC72C77B5E900EF0FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FA4BD42C77B5EB00EF0FF9 /* Preview Assets.xcassets in Resources */,
+				36FA4BD12C77B5EB00EF0FF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FA4BDC2C77B5EB00EF0FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FA4BE62C77B5EB00EF0FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36FA4BC52C77B5E900EF0FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FA4BD62C77B5EB00EF0FF9 /* Persistence.swift in Sources */,
+				36FA4BCF2C77B5E900EF0FF9 /* ContentView.swift in Sources */,
+				36FA4BCD2C77B5E900EF0FF9 /* PeriticketApp.swift in Sources */,
+				36FA4BD92C77B5EB00EF0FF9 /* Periticket.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FA4BDA2C77B5EB00EF0FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FA4BE32C77B5EB00EF0FF9 /* PeriticketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FA4BE42C77B5EB00EF0FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FA4BEF2C77B5EB00EF0FF9 /* PeriticketUITestsLaunchTests.swift in Sources */,
+				36FA4BED2C77B5EB00EF0FF9 /* PeriticketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36FA4BE02C77B5EB00EF0FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36FA4BC82C77B5E900EF0FF9 /* Periticket */;
+			targetProxy = 36FA4BDF2C77B5EB00EF0FF9 /* PBXContainerItemProxy */;
+		};
+		36FA4BEA2C77B5EB00EF0FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36FA4BC82C77B5E900EF0FF9 /* Periticket */;
+			targetProxy = 36FA4BE92C77B5EB00EF0FF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36FA4BF02C77B5EB00EF0FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36FA4BF12C77B5EB00EF0FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36FA4BF32C77B5EB00EF0FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Periticket/Preview Content\"";
+				DEVELOPMENT_TEAM = PW7L2YCFP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = periferiacol.com.Periticket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36FA4BF42C77B5EB00EF0FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Periticket/Preview Content\"";
+				DEVELOPMENT_TEAM = PW7L2YCFP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = periferiacol.com.Periticket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36FA4BF62C77B5EB00EF0FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW7L2YCFP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = periferiacol.com.PeriticketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periticket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Periticket";
+			};
+			name = Debug;
+		};
+		36FA4BF72C77B5EB00EF0FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW7L2YCFP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = periferiacol.com.PeriticketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periticket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Periticket";
+			};
+			name = Release;
+		};
+		36FA4BF92C77B5EB00EF0FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW7L2YCFP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = periferiacol.com.PeriticketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Periticket;
+			};
+			name = Debug;
+		};
+		36FA4BFA2C77B5EB00EF0FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW7L2YCFP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = periferiacol.com.PeriticketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Periticket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36FA4BC42C77B5E900EF0FF9 /* Build configuration list for PBXProject "Periticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FA4BF02C77B5EB00EF0FF9 /* Debug */,
+				36FA4BF12C77B5EB00EF0FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FA4BF22C77B5EB00EF0FF9 /* Build configuration list for PBXNativeTarget "Periticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FA4BF32C77B5EB00EF0FF9 /* Debug */,
+				36FA4BF42C77B5EB00EF0FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FA4BF52C77B5EB00EF0FF9 /* Build configuration list for PBXNativeTarget "PeriticketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FA4BF62C77B5EB00EF0FF9 /* Debug */,
+				36FA4BF72C77B5EB00EF0FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FA4BF82C77B5EB00EF0FF9 /* Build configuration list for PBXNativeTarget "PeriticketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FA4BF92C77B5EB00EF0FF9 /* Debug */,
+				36FA4BFA2C77B5EB00EF0FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36FA4BD72C77B5EB00EF0FF9 /* Periticket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36FA4BD82C77B5EB00EF0FF9 /* Periticket.xcdatamodel */,
+			);
+			currentVersion = 36FA4BD82C77B5EB00EF0FF9 /* Periticket.xcdatamodel */;
+			path = Periticket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36FA4BC12C77B5E900EF0FF9 /* Project object */;
+}
